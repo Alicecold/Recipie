@@ -12,7 +12,14 @@
 		0043B9C11F6674500069D95D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0043B9BF1F6674500069D95D /* Main.storyboard */; };
 		0043B9C31F6674500069D95D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0043B9C21F6674500069D95D /* Assets.xcassets */; };
 		0043B9C61F6674500069D95D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0043B9C41F6674500069D95D /* LaunchScreen.storyboard */; };
-		0043B9CE1F66846C0069D95D /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0043B9CD1F66846C0069D95D /* Launch Screen.storyboard */; };
+		00CCEE0B1F67F501001C92E2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 00CCEE0A1F67F501001C92E2 /* GoogleService-Info.plist */; };
+		00CCEE171F700E4C001C92E2 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CCEE161F700E4C001C92E2 /* SignUpViewController.swift */; };
+		00CCEE2C1F728997001C92E2 /* RecipeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CCEE2A1F728997001C92E2 /* RecipeTableViewCell.swift */; };
+		00CCEE2D1F728997001C92E2 /* RecipeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00CCEE2B1F728997001C92E2 /* RecipeTableViewCell.xib */; };
+		00CCEE2F1F729531001C92E2 /* RecipeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CCEE2E1F729531001C92E2 /* RecipeTableViewController.swift */; };
+		00CCEE311F7295F6001C92E2 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CCEE301F7295F6001C92E2 /* Recipe.swift */; };
+		00CCEE391F72A97E001C92E2 /* RecipeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CCEE381F72A97E001C92E2 /* RecipeDetailViewController.swift */; };
+		73829FAA21E4115188EA4F96 /* Pods_Recipie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB66AEB5356415E3B8D7AFD7 /* Pods_Recipie.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +30,16 @@
 		0043B9C21F6674500069D95D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0043B9C51F6674500069D95D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0043B9C71F6674500069D95D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0043B9CD1F66846C0069D95D /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		00CCEE0A1F67F501001C92E2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		00CCEE161F700E4C001C92E2 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		00CCEE2A1F728997001C92E2 /* RecipeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeTableViewCell.swift; sourceTree = "<group>"; };
+		00CCEE2B1F728997001C92E2 /* RecipeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecipeTableViewCell.xib; sourceTree = "<group>"; };
+		00CCEE2E1F729531001C92E2 /* RecipeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeTableViewController.swift; sourceTree = "<group>"; };
+		00CCEE301F7295F6001C92E2 /* Recipe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		00CCEE381F72A97E001C92E2 /* RecipeDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeDetailViewController.swift; sourceTree = "<group>"; };
+		57E264AE11D9AB134134987D /* Pods-Recipie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Recipie.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Recipie/Pods-Recipie.debug.xcconfig"; sourceTree = "<group>"; };
+		AB66AEB5356415E3B8D7AFD7 /* Pods_Recipie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Recipie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9B102CFD32005F900EEE580 /* Pods-Recipie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Recipie.release.xcconfig"; path = "Pods/Target Support Files/Pods-Recipie/Pods-Recipie.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73829FAA21E4115188EA4F96 /* Pods_Recipie.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +59,8 @@
 			children = (
 				0043B9BA1F6674500069D95D /* Recipie */,
 				0043B9B91F6674500069D95D /* Products */,
+				43FE55002DE3A1DB12AB0B6D /* Pods */,
+				7B7EF350FB7EA407E741363F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +77,36 @@
 			children = (
 				0043B9BB1F6674500069D95D /* AppDelegate.swift */,
 				0043B9BD1F6674500069D95D /* ViewController.swift */,
+				00CCEE161F700E4C001C92E2 /* SignUpViewController.swift */,
 				0043B9BF1F6674500069D95D /* Main.storyboard */,
-				0043B9CD1F66846C0069D95D /* Launch Screen.storyboard */,
 				0043B9C21F6674500069D95D /* Assets.xcassets */,
 				0043B9C41F6674500069D95D /* LaunchScreen.storyboard */,
+				00CCEE0A1F67F501001C92E2 /* GoogleService-Info.plist */,
 				0043B9C71F6674500069D95D /* Info.plist */,
+				00CCEE2A1F728997001C92E2 /* RecipeTableViewCell.swift */,
+				00CCEE2B1F728997001C92E2 /* RecipeTableViewCell.xib */,
+				00CCEE2E1F729531001C92E2 /* RecipeTableViewController.swift */,
+				00CCEE301F7295F6001C92E2 /* Recipe.swift */,
+				00CCEE381F72A97E001C92E2 /* RecipeDetailViewController.swift */,
 			);
 			path = Recipie;
+			sourceTree = "<group>";
+		};
+		43FE55002DE3A1DB12AB0B6D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				57E264AE11D9AB134134987D /* Pods-Recipie.debug.xcconfig */,
+				E9B102CFD32005F900EEE580 /* Pods-Recipie.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7B7EF350FB7EA407E741363F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB66AEB5356415E3B8D7AFD7 /* Pods_Recipie.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +116,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0043B9CA1F6674500069D95D /* Build configuration list for PBXNativeTarget "Recipie" */;
 			buildPhases = (
+				24DDDD690B14023D7632DA34 /* [CP] Check Pods Manifest.lock */,
 				0043B9B41F6674500069D95D /* Sources */,
 				0043B9B51F6674500069D95D /* Frameworks */,
 				0043B9B61F6674500069D95D /* Resources */,
+				F700746FC0E1DEC52AF07962 /* [CP] Embed Pods Frameworks */,
+				F1D1DC6A88D045FB49E12C43 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -99,6 +144,7 @@
 				TargetAttributes = {
 					0043B9B71F6674500069D95D = {
 						CreatedOnToolsVersion = 8.3.3;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -128,12 +174,71 @@
 			files = (
 				0043B9C61F6674500069D95D /* LaunchScreen.storyboard in Resources */,
 				0043B9C31F6674500069D95D /* Assets.xcassets in Resources */,
-				0043B9CE1F66846C0069D95D /* Launch Screen.storyboard in Resources */,
+				00CCEE0B1F67F501001C92E2 /* GoogleService-Info.plist in Resources */,
 				0043B9C11F6674500069D95D /* Main.storyboard in Resources */,
+				00CCEE2D1F728997001C92E2 /* RecipeTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24DDDD690B14023D7632DA34 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Recipie-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1D1DC6A88D045FB49E12C43 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Recipie/Pods-Recipie-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F700746FC0E1DEC52AF07962 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Recipie/Pods-Recipie-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Recipie/Pods-Recipie-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0043B9B41F6674500069D95D /* Sources */ = {
@@ -141,7 +246,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				0043B9BE1F6674500069D95D /* ViewController.swift in Sources */,
+				00CCEE2C1F728997001C92E2 /* RecipeTableViewCell.swift in Sources */,
+				00CCEE391F72A97E001C92E2 /* RecipeDetailViewController.swift in Sources */,
+				00CCEE171F700E4C001C92E2 /* SignUpViewController.swift in Sources */,
+				00CCEE311F7295F6001C92E2 /* Recipe.swift in Sources */,
 				0043B9BC1F6674500069D95D /* AppDelegate.swift in Sources */,
+				00CCEE2F1F729531001C92E2 /* RecipeTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,25 +372,29 @@
 		};
 		0043B9CB1F6674500069D95D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57E264AE11D9AB134134987D /* Pods-Recipie.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Recipie/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = alicedarner.Recipie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
 		0043B9CC1F6674500069D95D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9B102CFD32005F900EEE580 /* Pods-Recipie.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Recipie/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = alicedarner.Recipie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -303,6 +417,7 @@
 				0043B9CC1F6674500069D95D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
