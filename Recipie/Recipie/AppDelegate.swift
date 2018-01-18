@@ -1,13 +1,12 @@
 //
 //  AppDelegate.swift
-//  Recipie
+//  ReciPie
 //
-//  Created by Alice Darner on 2017-09-11.
-//  Copyright © 2017 Alice Darner. All rights reserved.
+//  Created by Alice Darner on 2018-01-17.
+//  Copyright © 2018 Alice Darner. All rights reserved.
 //
 
 import UIKit
-import Firebase
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -17,7 +16,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        FirebaseApp.configure()
         return true
     }
 

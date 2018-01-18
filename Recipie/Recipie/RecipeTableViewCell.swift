@@ -1,21 +1,22 @@
 //
 //  RecipeTableViewCell.swift
-//  Recipie
+//  ReciPie
 //
-//  Created by Alice Darner on 2017-09-20.
-//  Copyright © 2017 Alice Darner. All rights reserved.
+//  Created by Alice Darner on 2018-01-17.
+//  Copyright © 2018 Alice Darner. All rights reserved.
 //
 
 import UIKit
 
 class RecipeTableViewCell: UITableViewCell {
-
-    @IBOutlet weak var recipeNameLabel: UILabel!
-    @IBOutlet weak var recipeThumbnailImage: UIImageView!
-    
+    @IBOutlet weak var resName: UILabel!
+    @IBOutlet weak var resImg: UIImageView!
+    @IBOutlet weak var resCat: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        
+        //resImg.layer.cornerRadius = 20
+        //resImg.clipsToBounds = true
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
@@ -23,5 +24,5 @@ class RecipeTableViewCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
-    
+
 }
